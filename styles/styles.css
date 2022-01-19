@@ -1,0 +1,251 @@
+/* General Styles */
+@font-face {
+  font-family: 'MyByekan';
+  src: url("../fonts/BYekan.eot") format("eot"),
+  url("../fonts/BYekan.ttf") format('truetype'),
+  url("../fonts/BYekan.woff") format('woff');
+}
+html{
+  scroll-behavior: smooth;
+}
+body, h1, h2, h3 {
+  margin: 0;
+  padding: 0;
+  font-family: 'MyByekan';
+}
+
+.container {
+  width: 900px;
+  margin: auto;
+  direction: rtl;
+}
+
+.clear {
+  clear: both;
+}
+
+/* Navigtaion */
+#nav {
+  background: #37474f;
+  height: 65px;
+}
+
+#nav h1 {
+  float: right;
+  color: #fff;
+  padding-top: 14px;
+}
+
+#nav span {
+  color: #02b7db;
+}
+
+#nav ul {
+  float: left;
+  padding-top: 6px;
+}
+
+#nav ul li {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+#nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 8px;
+  transition: .5s linear;
+}
+
+#nav ul li a:hover {
+  background: #03c0e8;
+  border-radius: 3px;
+}
+
+.active{
+  color:  #03c0e8;
+}
+
+/* Big Section ‌*/
+#bigSection {
+  background: url("../images/n5184.jpg") no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+
+#bigSection .title {
+  color: #fff;
+  text-align: center;
+  font-size: 75px;
+  padding-top: 50px;
+  text-shadow: 4px 4px 2px #000;
+}
+
+#bigSection .subtitle {
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 20px;
+  text-shadow: 4px 4px 2px #000;
+}
+
+#bigSection .desc {
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  line-height: 25px;
+  margin-top: 200px;
+  text-shadow: 4px 4px 2px #000;
+}
+
+/* Newsletter */
+#newsletter {
+  background: #37474f;
+  height: 60px;
+}
+
+#newsletter h2 {
+  float: right;
+  color: #fff;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  font-size: 16px;
+}
+
+#newsletter form {
+  float: left;
+  padding-top: 15px;
+}
+
+#newsletter form input[type=text] {
+  padding: 5px;
+  border: none;
+  font-family: 'MyByekan';
+  font-size: 13px;
+}
+
+#newsletter form input[type=submit] {
+  background: green;
+  color: #fff;
+  border: none;
+  padding: 5px;
+  font-family: 'MyByekan';
+  font-size: 13px;
+}
+
+#newsletter form input[type=submit]:hover {
+  cursor: pointer;
+  background: #006700;
+
+}
+
+/* haghani */
+
+#haghani {
+  margin: 30px 0;
+}
+
+#haghani .section {
+  display: inline-block;
+  width: 33%;
+  text-align: center;
+}
+
+#haghani .section img {
+  width: 200px;
+  opacity: 0.8;
+  transition: .5 ease-in-out;
+}
+
+#haghani .section:hover img {
+  opacity: 1;
+  cursor: pointer;
+  transition: .5 ease-in-out;
+}
+
+#haghani .section h2 {
+  padding-top: 10px;
+}
+
+#haghani .section p {
+  padding: 15px;
+  margin: 0;
+  color: gray;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* Team */
+#team {
+  background: #e2e2e2;
+}
+
+#team .right {
+  width: 50%;
+  float: right;
+}
+
+#team .right h2 {
+  font-size: 30px;
+  padding-top: 10px;
+}
+
+#team .right p {
+  padding-left: 10px;
+  line-height: 20px;
+  font-size: 15px;
+  color: #353535;
+}
+
+#team .left img {
+  width: 50%;
+  float: left;
+}
+
+/* Cars */
+#stud{
+  padding: 10px 0;
+}
+
+#stud h2{
+  text-align: center;
+  padding: 15px 0;
+  font-size: 35px;
+}
+#stud .carContainer {
+  width: 900px;
+  margin: 10px auto;
+}
+
+#stud .carContainer img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  opacity: 0.8;
+}
+
+#stud .carContainer img:hover{
+  opacity: 1;
+  cursor: pointer;
+}
+
+/* Footer */
+#footer {
+  background: #3f3f3f;
+  text-align: center;
+  color: #fff;
+  padding: 10px 0;
+  margin-top: 20px;
+}
+
+#footer p {
+  padding: 0;
+  margin: 0;
+  line-height: 20px;
+  font-size: 14px;
+}
+@media(max-width:480px){
+ /*
+      less time 
+ */
+}
