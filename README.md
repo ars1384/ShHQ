@@ -3,3 +3,4 @@
 ### slick js
 ### typed js
 ### jquery
+### jquery-migrate
